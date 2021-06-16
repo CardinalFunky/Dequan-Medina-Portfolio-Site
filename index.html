@@ -17,27 +17,21 @@
     html, body {
         width: 100%;
         height: 100%;
-        overflow: hidden;
         background-color: rgb(63, 63, 63);
+    }
+    .header-container {
+        background-color: silver;
+        border-radius: 10px;
     }
     .content-container {
         width: 55%;
         height: 80%;
-        position: absolute;
-        background-color: white;
-        margin-left: 22.5%;
-        margin-top: 2.5%;
-        border-radius: 10px;
-        overflow-y: auto;
-        overflow-x: auto;
-        z-index: 1;
-        /* Hide scrollbar for IE, Edge and Firefox */
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        margin-top: 1%;
     }
-    .content-container::-webkit-scrollbar {
-        /* Hide scrollbar for Chrome, Safari and Opera */
-        display: none;
+    .mini-content-container {
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 1%;
     }
     .navbar {
         z-index: 1;
@@ -66,11 +60,6 @@
         margin: 0;
         }
     }
-    .ball {
-        position: absolute;
-        border-radius: 100%;
-        opacity: 0.7;
-    }
 </style>
 </head>
 <body>
@@ -96,98 +85,109 @@
         </div>
     </nav>
     <div class="container content-container">
-        <div class="row row-content-1">
-            <div class="col">
-                <img src="pictures/me_1.png" class="img-fluid img-thumbnail rounded mx-auto d-block" width="200px" height="200px">
-                <p>Full-Stack Web Developer<br>Computer Scientist<br>Husband</p>
+        <div class="container header-container">
+            <h1 class="text-center">Education</h1>
+        </div>
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="p-2">
+                <div class="container-fluid mini-content-container text-center">
+                    <h2><b>Computer Science</b></h2>
+                    <h3>Bachelors Degree</h3>
+                    <h3><i>Fort Valley State University</i></h3>
+                </div>
             </div>
         </div>
-        <div class="row row-content-2">
-            <div class="col">
-                <h2>Job/Profession</h2>
-                <p>
-                    I currently work as a Full-Stack Web Developer at the Robins Airforce Base in Warner Robins, Georgia. My actual title and occupation is Computer Scientist, but the large majority of my work at the moment deals with maintaining a website. I work on both the backend and frontend code on the site.
-                </p>
+        <div class="container header-container">
+            <h1 class="text-center">Experience</h1>
+        </div>
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="p-2">
+                <div class="container-fluid mini-content-container">
+                    <p><i>December 17, 2018 - Present</i></p>
+                    <h2 class="text-center"><b>Full-Stack Web Developer</b> (Computer Scientist)</h2>
+                    <h2 class="text-center"><b>AFIRM Website Maintenance</b></h2>
+                    <h3 class="text-center"><i>Robins Airforce Base - 402 Software Maintenance Group</i></h3>
+                    <ul>
+                        <li><b>Database</b>: Oracle | PLSQL/SQL</li>
+                        <li><b>Languages & Libraries</b>: C# (.NET & MVC), JS/JQuery, CSS/LESS/Bootstrap, HTML</li>
+                        <li><b>Organization Workflow</b>: SCRUM & AGILE</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="container-fluid mini-content-container">
+                    <p><i>June, 2017 - August 4, 2017 | May, 2018 - August, 2018</i></p>
+                    <h2 class="text-center"><b>Pathways Student Trainee (Internship)</b></h2>
+                    <h3 class="text-center"><i>Robins Airforce Base - 402 Software Maintenance Group</i></h3>
+                    <ul>
+                        <li>Learned about the different job opportunities at the base.</li>
+                        <li>Worked with a software maintenance team on a new project, using Appian.</li>
+                        <li>Worked in a software maintenance team at JSTARS, using C & C++ programming languages.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="container-fluid mini-content-container">
+                    <p><i>January, 2016 - December, 2018</i></p>
+                    <h2 class="text-center"><b>Undergraduate Research</b></h2>
+                    <h3 class="text-center"><i>Fort Valley State University</i></h2>
+                    <h3><b>Co-authored Research</b></h3>
+                    <ul>
+                        <li>
+                            Face Recognition Using an Innovative Bag of Features and Support Vector Machines<br />
+                            <a href="https://emerging-researchers.org/projects/46-4/">ERN - Emerging Researchers National Conference in STEM</a><br />
+                            <a href="https://apps.cur.org/ncur2019/search/Display_NCUR.aspx?id=112220">NCUR 2019</a><br />
+                        </li>
+                    </ul>
+                    <h3><b>Conferences Attended</b></h3>
+                    <ul>
+                        <li>2018 Fall  ACM Mid-Southeast Conference</li>
+                        <ul>
+                            <li><b>Presentation</b>: <i>Improved Face Recognition using Principal Components of Histogram of Oriented Gradients and Support Vector Machine</i></li>
+                        </ul>
+                        <li>2018 ASEE - Southeastern Conference</li>
+                        <ul>
+                            <li><b>Presentation</b>: <i>A Contemporary Approach for CT Image Segmentation</i></li>
+                        </ul>
+                        <li>2017 Fall ACM Mid - Southeast Conference</li>
+                        <ul>
+                            <li><b>Presentation</b>: <i>A novel Segmentation Strategy for CT Image Sequences using Support Vector Machines</i></li>
+                        </ul>
+                        <li>2016 Fall ACM Mid - Southeast Conference</li>
+                        <ul>
+                            <li><b>Presentation</b>: <i>Building a GUI-based Image Processing and Statistics Software</i></li>
+                        </ul>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row row-content-3">
-            <div class="col">
-                <h2>Aspirations/Goals</h2>
-                <p>
-                    My primary goal is to become a better developer. Whether it is for websites, web applications, or even software for operating systems, I simply want to get better at my craft.
-                </p>
-                <p>My primary focus, at the moment, is getting better at front-end design and implementation. </p>
-            </div>
+        <div class="container header-container">
+            <h1 class="text-center">Activities</h1>
         </div>
-        <div class="row row-content-2">
-            <div class="col">
-                <h2>Activities & Hobbies</h2>
-                <p>
-                    From 2010 - 2014, I was a part of the Shiloh High School Brigade Marching Band. I played Euphonium/Baritone and received a scholorship to be a part of the Tennessee State University Aristocrat of Bands. I was a part of the TSU Aristocraft of Bands from 2014 - 2015. 
-                </p>
-                <p>
-                    My primary hobbies are inline-skating, writing, and playing video games.
-                </p>
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="p-2">
+                <div class="container-fluid mini-content-container">
+                    <p><i>August, 2014 - May, 2015</i></p>
+                    <h2 class="text-center">Tennessee State University Aristocrat of Bands</h2>
+                    <ul>
+                        <li>Played Euphonium and was included in both the Marching Band and Concert Band</li>
+                        <li>Honda Battle of the Bands field show participant at the Georgia Dome (2015)</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="row row-content-3">
-            <div class="col">
-                <h2>Contact Information</h2>
-                <p>
-                    For business inquiries, please email me at <b>Dequan.Medina@gmail.com</b>
-                </p>
+            <div class="p-2">
+                <div class="container-fluid mini-content-container">
+                    <p><i>August, 2010 - May, 2014</i></p>
+                    <h2 class="text-center">Shiloh High School Brigade Marching/Symphonic/Concert Band</h2>
+                    <ul>
+                        <li>Played Trumpet for a year and a half and played Euphonium for the remainder of my high school career</li>
+                        <li>Section Leader during my senior year</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script>
-        function AnimateBackground_Balls() {
-            // Reference: https://codepen.io/nashvail/pen/wpGgXO
-            // Some random colors
-            const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
-
-            const numBalls = 50;
-            const balls = [];
-
-            for (let i = 0; i < numBalls; i++) {
-                let ball = document.createElement("div");
-                ball.classList.add("ball");
-                ball.style.background = colors[Math.floor(Math.random() * colors.length)];
-                ball.style.left = `${Math.floor(Math.random() * 100)}vw`;
-                ball.style.top = `${Math.floor(Math.random() * 100)}vh`;
-                ball.style.transform = `scale(${Math.random()})`;
-                ball.style.width = `${Math.random()}em`;
-                ball.style.height = ball.style.width;
-                
-                balls.push(ball);
-                document.body.append(ball);
-            }
-
-            // Keyframes
-            balls.forEach((el, i, ra) => {
-                let to = {
-                    x: Math.random() * (i % 2 === 0 ? -11 : 11),
-                    y: Math.random() * 12
-                };
-
-                let anim = el.animate(
-                    [
-                    { transform: "translate(0, 0)" },
-                    { transform: `translate(${to.x}rem, ${to.y}rem)` }
-                    ],
-                    {
-                    duration: (Math.random() + 1) * 2000, // random duration
-                    direction: "alternate",
-                    fill: "both",
-                    iterations: Infinity,
-                    easing: "ease-in-out"
-                    }
-                );
-            });
-        }
-
-        AnimateBackground_Balls();
-    </script>
 </body>
 </html>
