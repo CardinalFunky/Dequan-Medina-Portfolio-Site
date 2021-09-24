@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JQuery -->
+    <script src="../js/jquery.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Datatables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/dt-1.11.2/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.11.2/datatables.min.js"></script>
+
+    <title>Testing</title>
+  </head>
+  <body>
+    <div clas="container-fluid" style="border-bottom: 1px solid black;">
+        <h1 class="text-center">video_game_collection.js</h1>
+    </div>
+    <div class="container VIDEO_GAMES" style="margin-top: 1%; border: 1px solid black; border-radius: 10px;">
+      <h2 class="text-center">VIDEO_GAMES Table</h2>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Personal JavaScript -->
+    <script src="../js/video_game_collection.js"></script>
+    <script>
+      Create_Data_Table_VideoGames(VIDEO_GAMES, $(".VIDEO_GAMES"));
+    </script>
+  </body>
+</html>
