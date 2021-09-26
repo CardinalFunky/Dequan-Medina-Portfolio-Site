@@ -1163,6 +1163,230 @@ const VIDEO_GAMES = [
         "platform": "PC",
         "source": "STEAM"
     },
+    {
+        "id": 147,
+        "name": "Torchlight",
+        "purchase_price": "1.04",
+        "purchase_date": new Date(2021, 9, 25),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 148,
+        "name": "OUTRIDERS",
+        "purchase_price": "46.01",
+        "purchase_date": new Date(2021, 9, 4),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 149,
+        "name": "ELEX",
+        "purchase_price": "7.27",
+        "purchase_date": new Date(2021, 4, 10),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 150,
+        "name": "Dead by Daylight",
+        "purchase_price": "9.32",
+        "purchase_date": new Date(2020, 8, 20),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 151,
+        "name": "Euro Truck Simulator 2",
+        "purchase_price": "6.59",
+        "purchase_date": new Date(2019, 6, 17),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 152,
+        "name": "The Elder Scrolls Online: Summerset Upgrade",
+        "purchase_price": "13.33",
+        "purchase_date": new Date(2019, 5, 5),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 153,
+        "name": "Trillion: God of Destruction",
+        "purchase_price": "4.11",
+        "purchase_date": new Date(2018, 3, 2),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 154,
+        "name": "Hand of Fate",
+        "purchase_price": "1.92",
+        "purchase_date": new Date(2017, 11, 8),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 155,
+        "name": "Dragon Age 2",
+        "purchase_price": "7.51",
+        "purchase_date": new Date(2017, 9, 23),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 156,
+        "name": "Naruto Shippuden: Ultimate Ninja Storm 4",
+        "purchase_price": "15.36",
+        "purchase_date": new Date(2017, 5, 17),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 157,
+        "name": "The Elder Scrolls Online: Tamriel Unlimited The Elder Scrolls",
+        "purchase_price": "11.46",
+        "purchase_date": new Date(2017, 2, 6),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 158,
+        "name": "Tales from the Borderlands",
+        "purchase_price": "5.25",
+        "purchase_date": new Date(2017, 1, 7),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 159,
+        "name": "Tabletop Simulator",
+        "purchase_price": "13.30",
+        "purchase_date": new Date(2016, 12, 19),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 160,
+        "name": "DOOM",
+        "purchase_price": "19.83",
+        "purchase_date": new Date(2016, 12, 16),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 161,
+        "name": "Don't Starve Together",
+        "purchase_price": "9.11",
+        "purchase_date": new Date(2016, 12, 11),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 162,
+        "name": "Middle-earth: Shadow of Mordor Game of the Year Edition",
+        "purchase_price": "4.45",
+        "purchase_date": new Date(2016, 12, 11),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 163,
+        "name": "Tales of Symphonia",
+        "purchase_price": "6.20",
+        "purchase_date": new Date(2016, 12, 11),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 164,
+        "name": "Attack on Titan / A.O.T. Wings of Freedom",
+        "purchase_price": "33.97",
+        "purchase_date": new Date(2016, 12, 6),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 165,
+        "name": "Mass Effect 3",
+        "purchase_price": "6.52",
+        "purchase_date": new Date(2016, 11, 23),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 166,
+        "name": "Tom Clancy's The Division",
+        "purchase_price": "26.32",
+        "purchase_date": new Date(2016, 10, 17),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 167,
+        "name": "Dragon Age: Inquisition",
+        "purchase_price": "8.45",
+        "purchase_date": new Date(2016, 10, 16),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 168,
+        "name": "Killing Floor 2",
+        "purchase_price": "18.52",
+        "purchase_date": new Date(2016, 9, 17),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 169,
+        "name": "Call of Duty: Advanced Warfare",
+        "purchase_price": "22.56",
+        "purchase_date": new Date(2015, 8, 9),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 170,
+        "name": "Call of Duty: Black Ops II",
+        "purchase_price": "18.87",
+        "purchase_date": new Date(2014, 9, 21),
+        "platform": "PC",
+        "source": "G2A"
+    },
+    {
+        "id": 171,
+        "name": "No Man's Sky",
+        "purchase_price": "0.00",
+        "purchase_date": new Date(2016, 8, 19),
+        "platform": "PC",
+        "source": "GOG"
+    },
+    {
+        "id": 172,
+        "name": "GWENT: The Witcher Card Game",
+        "purchase_price": "0.00",
+        "purchase_date": new Date(2016, 11, 4),
+        "platform": "PC",
+        "source": "GOG"
+    },
+    {
+        "id": 173,
+        "name": "Neverwinter Nights Diamond",
+        "purchase_price": "0.00",
+        "purchase_date": new Date(2016, 12, 2),
+        "platform": "PC",
+        "source": "GOG"
+    },
+    {
+        "id": 174,
+        "name": "Ultima 4: Quest of the Avatar",
+        "purchase_price": "0.00",
+        "purchase_date": new Date(2018, 7, 25),
+        "platform": "PC",
+        "source": "GOG"
+    },
 ]
 
 function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
