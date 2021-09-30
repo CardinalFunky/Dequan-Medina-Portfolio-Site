@@ -1387,6 +1387,14 @@ const VIDEO_GAMES = [
         "platform": "PC",
         "source": "GOG"
     },
+    {
+        "id": 175,
+        "name": "ONE PIECE: PIRATE WARRIORS 4",
+        "purchase_price": "17.99",
+        "purchase_date": new Date(2021, 9, 30),
+        "platform": "PC",
+        "source": "Steam"
+    },
 ]
 
 function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
