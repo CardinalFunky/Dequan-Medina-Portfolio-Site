@@ -1414,7 +1414,7 @@ function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
 
         for (let i = 0; i < videoGameData.length; i++) {
             purchase_price_sum += Number(videoGameData[i].purchase_price);
-            let month = videoGameData[i].purchase_date.getUTCMonth() + 1;
+            let month = videoGameData[i].purchase_date.getUTCMonth();
             let day = videoGameData[i].purchase_date.getUTCDate();
             let year = videoGameData[i].purchase_date.getUTCFullYear();
             let date = year + "/" + month + "/" + day;
