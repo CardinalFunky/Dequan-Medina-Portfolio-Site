@@ -1395,6 +1395,22 @@ const VIDEO_GAMES = [
         "platform": "PC",
         "source": "Steam"
     },
+    {
+        "id": 176,
+        "name": "Deep Rock Galactic",
+        "purchase_price": "14.99",
+        "purchase_date": new Date(2021, 11, 04),
+        "platform": "PC",
+        "source": "Steam"
+    },
+    {
+        "id": 177,
+        "name": "Blade & Sorcery",
+        "purchase_price": "19.99",
+        "purchase_date": new Date(2021, 11, 08),
+        "platform": "PC",
+        "source": "Steam"
+    },
 ]
 
 function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
@@ -1406,6 +1422,7 @@ function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
                 <thead>
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
+                    <th scope="col">Source</th>
                     <th scope="col">Purchase Price</th>
                     <th scope="col">Purchase Date</th>
                 </thead>
@@ -1424,6 +1441,7 @@ function Create_Data_Table_VideoGames(videoGameData, divToAppend) {
                 <tr>
                     <th scope="row">` + videoGameData[i].id + `</th>
                     <td>` + videoGameData[i].name +`</td>
+                    <td>` + videoGameData[i].source +`</td>
                     <td>$` + videoGameData[i].purchase_price +`</td>
                     <td>` + date +`</td>
                 </tr>
